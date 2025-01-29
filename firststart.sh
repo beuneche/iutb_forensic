@@ -1,6 +1,7 @@
 #!/bin/bash
-apt-get install john
-apt-get install net-tools
+apt-get install -y john
+apt-get install -y net-tools
 systemctl daemon-reload
 systemctl start IpManager
 systemctl enable IpManager
+rm -f /root/firststart.sh
